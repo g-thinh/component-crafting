@@ -1,0 +1,19 @@
+---
+import ThemeButton from "./ThemeButton.astro";
+---
+
+<header class="flex bg-white dark:bg-gray-900 mx-12 h-[80px]">
+  <nav class="flex justify-between items-center w-full">
+    <div>
+      <p class="bold text-3xl">
+        Component <span
+          class="bg-gradient-to-r from-blue-500 to-blue-400 bg-clip-text inline-block text-transparent"
+          >Crafting</span
+        >
+      </p>
+    </div>
+    <div>
+      <ThemeButton />
+    </div>
+  </nav>
+</header>
